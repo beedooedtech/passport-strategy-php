@@ -1,0 +1,43 @@
+{
+    "name": "beedooedtech/google-oauth-strategy-php",
+    "description": "Passport PHP SDK",
+    "type": "library",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT",
+    "keywords": [
+        "beedoo.com.br",
+        "beedoo",
+        "edtech",
+        "sso",
+        "oauth"
+    ],
+    "scripts": {
+        "test": [
+            "phpunit --coverage-html reports"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "GoogleStrategy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GoogleStrategyTests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Igor Santana",
+            "email": "igor.santana@beedoo.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "league/oauth2-google": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
