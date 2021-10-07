@@ -1,5 +1,5 @@
 {
-    "name": "beedooedtech/strategy-php",
+    "name": "beedooedtech/passport-strategy-php",
     "description": "Passport PHP SDK",
     "type": "library",
     "minimum-stability": "stable",
