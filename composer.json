@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PassportStrategy\\": "src/"
+            "BeedooEdtech\\Passport\\Strategy\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PassportStrategyTests\\": "tests/"
+            "BeedooEdtechTests\\": "tests/"
         }
     },
     "authors": [

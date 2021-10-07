@@ -1,6 +1,6 @@
 <?php
 
-namespace PassportStrategy;
+namespace BeedooEdtech\Passport\Strategy;
 
 interface Strategy
 {
