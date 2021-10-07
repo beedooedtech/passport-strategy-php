@@ -1,6 +1,6 @@
 <?php
 
-namespace GooglePassport\Contracts;
+namespace PassportStrategy;
 
 interface Strategy
 {
