@@ -4,7 +4,7 @@ namespace BeedooEdtech\Passport\Strategy;
 
 interface Strategy
 {
-    public function auth();
+    public function redirect();
     public function getId();
     public function getName();
     public function getFirstName();
